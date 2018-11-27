@@ -1,0 +1,11 @@
+Uma classe abstrata representa um conceito, algo abstrato, e o compilador não permite instanciar um objeto dessa classe. Para instanciar é preciso criar primeiro uma classe filha não abstrata.
+
+um método abstrato define apenas a assinatura (visibilidade, retorno, nome do método e parâmetros).
+
+Classes abstratas são úteis quando queremos utilizar comportamentos e atributos base em classes com comportamentos em comum.
+
+Usamos métodos abstratos quando queremos "forçar" que um filho concreto (classe concreta) implemente um método.
+
+Uma classes abstrata é uma classe normal, só não pode instanciar e pode ter métodos abstratos. O resto continua valendo!
+
+podem ter atributos também podem ter métodos concretos!

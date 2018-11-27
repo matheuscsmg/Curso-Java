@@ -1,0 +1,37 @@
+Padrão para documentar o código Java (Javadoc):
+/**
+*
+*
+*
+*/
+
+pode ser adicionado comentários em cima da classe e em cima dos métodos Públicos.
+
+Para salvar documentação no Eclipse: (precisa do JDK)
+Project>Generate Javadoc>Finish.
+
+Para visualizar a documentação:
+Perspectiva - Package Explorer >Projeto>pasta doc>pasta resources>clica em index.html.
+
+===========================================================================
+
+
+a) É preciso ter instalado o JDK para poder gerar a documentação javadoc.
+
+b) O javadoc é uma documentação escrita pelo desenvolvedor para desenvolvedores.
+
+c) apenas os membros "públicos" são contemplados no javadoc. Outros membros (não públicos) são considerados detalhes da implementação e não podemos ser utilizados por outras classes.
+
+d) Existem tags especias para marcar o autor ou a versão da classe.
+
+ALGUMAS NOTAÇÕES/TAGS:
+
+@author (usado na classe ou interface)
+@version (usado na classe ou interface)
+@param (usado no método e construtor)
+@return (usado apenas no método)
+@exception ou @throws (no método ou construtor)
+@see
+@since
+@serial
+@deprecated

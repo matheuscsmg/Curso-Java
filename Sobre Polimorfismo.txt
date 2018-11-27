@@ -1,0 +1,24 @@
+No mundo orientado a objetos, o polimorfismo permite que ...
+
+Referências de tipos de classes mais genéricas referenciam objetos mais específicos.
+
+ 
+Correto e vimos isso no código, através do exemplo:
+
+Funcionario f = new Gerente();
+
+"f" é uma referência do tipo Funcionário.
+
+Nessa aula aprendemos que:
+
+objetos não mudam de tipo;
+a referência pode mudar, e aí entra o polimorfismo;
+o polimorfismo permite usar referências mais genéricas para a comunicação com um objeto;
+o uso de referências mais genéricas permite desacoplar sistemas.
+
+==============================================================================
+Correta, podemos comunicar com um objeto através de tipos de variáveis diferentes.
+
+Por exemplo, se existir uma classe Gerente que seja filha de Funcionario, um objeto do tipo Gerente pode ser referenciado com o tipo Funcionario também.
+
+Podemos ter polimorfismo via herança ou interface.

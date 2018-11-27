@@ -1,0 +1,9 @@
+A Interface é um contrato onde quem assina se responsabiliza por implementar esses métodos (cumprir o contrato).
+
+Correto, todos os métodos na interface são sempre abstratos e sempre públicos.
+Em uma classe abstratos podemos ter métodos concretos e abstratos.
+
+
+(Classes abstratas não podem ser instanciadas, interfaces sim.) 
+Errado! Na verdade nenhuma das duas podem ser implementadas.
+Não podemos dar new na classe abstrata, nem na interface!!
