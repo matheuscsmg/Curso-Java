@@ -1,0 +1,3 @@
+LinkedList e ArrayList são duas implementações diferentes da interface List. A LinkedList é uma lista duplamente "linkada" e a ArrayList representa um array com redimensionamento dinâmico.
+
+Além das duas Classes também temos a classe Vector que implementa a interface List.
