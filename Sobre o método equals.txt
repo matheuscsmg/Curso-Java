@@ -1,2 +1,2 @@
 Em geral, os métodos equals, toString e hashCode existem para sobrescrita.
-A implementação do método equals da classe Object compara apenas as referências. 
+A implementação do método equals da classe Object compara apenas as referências.
