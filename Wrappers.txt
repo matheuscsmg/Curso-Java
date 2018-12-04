@@ -42,4 +42,4 @@ a criação do objeto Wrapper é chamada de autoboxing
 a retirada do valor primitivo do objeto Wrapper é chamada de unboxing
 autoboxing e unboxing acontecem automaticamente.
 as classes wrapper possuem vários métodos auxiliares, por exemplo para o parsing
-todas as classes wrappers que representam um valor numérico possuem a classe java.lang.Number como mãe
+todas as classes wrappers que representam um valor numérico possuem a classe java.lang.Number como mãe.
